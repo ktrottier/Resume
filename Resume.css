@@ -1,0 +1,81 @@
+* {
+  background-color: #efefef;
+  padding: 5px;
+}
+
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  float: right;
+  margin-left: 10px;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+ul {
+  margin-left: 0;
+  list-style: disc;
+}
+nav {
+  float: right;
+  padding: 5px;
+  margin: 5px;
+}
+
+#workexperience {
+width: 100%;
+margin: center;
+float: center;
+
+}
+
+a:hover a:visited{
+  color: purple;
+}
+
+.gitlink {
+  text-align: right;
+  border: 2px blue;
+  border-radius: 5px;
+  background-color: #66CCFF;
+}
+
+.jobTitle {
+  width: 30%;
+  margin: left;
+  position: relative;
+  padding-top: 0px;
+  padding-left: 0px;
+  text-align: left;
+  clear: bottom;
+}
+
+.date {
+  width:30%;
+  margin: left;
+  position: relative;
+  padding-top: 0px;
+  padding-left: 0px;
+  text-align: left;
+  clear: bottom;
+}
+
+.jobskills {
+  width: 70%;
+ }
+
+.centertable {
+  width: 100%;
+  margin: center;
+  float: center;
+}
+
+
+
