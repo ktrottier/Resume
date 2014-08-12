@@ -6,25 +6,29 @@
   </head>
 
   <body>
-    <header>
-      <div id="contactinfo" vocab="http://schema.org" typeof="Person">
-        <img src="forrest.jpg" property="image">
-        <span property="name"><h1>Forrest Parker</h1></span>
-        <span property="jobTitle">Software Developer</span>
-        <div id="contactaddress" property="address" typeof="PostalAddress">
-          <span property="streetAddress">5259 17th Ave NE</br></span>
-          <span property="addressLocality">Seattle</span>
-          <span property="addressRegion">WA</span>
-          <span property="postalCode">98105</br></span>
-          <span property="telephone">(805)458-2352</br></span>
-          <a href="forresta.parker@gmail.com" property="email">forresta.parker@gmail.com</br></a>
-        </div>
-        <nav>
-          <a class="gitlink" href="https://www.linkedin.com/in/fparker9676?trk=shareTw">Linked-In</a>
-        </br>
-      </br>
-          <a class="gitlink" href="http://github.com/fparker9676">Git-Hub</a>
-        </nav>
+    <header class="header">
+      <img class="medresize" src="forrest.jpg" property="image">
+      <a id="linkin" href="https://www.linkedin.com/in/fparker9676?trk=shareTw">
+      <img class="smresize" src ="linkedin.jpg"></a>
+      <a id="github" href="http://github.com/fparker9676"><img class="smresize"src="github.jpg"></a>
+      <div class="offset-by-ten" id="contactinfo" vocab="http://schema.org" typeof="Person">
+        <p property="name"><h1>Forrest Parker</h1></p>
+        <p property="jobTitle">Software Developer</p>
+      </div>
+
+      <div class="offset-by-ten" id="contactaddress" property="address" typeof="PostalAddress">
+        <p property="streetAddress">5259 17th Ave NE<p>
+        <p property="addressLocality">Seattle</p>
+        <p property="addressRegion">WA</p>
+        <p property="postalCode">98105</p>
+        <p property="telephone">(805)458-2352</p>
+        <a href="forresta.parker@gmail.com" property="email">forresta.parker@gmail.com</a>
+      </div>
+    </header>
+
+      <nav class="container">
+
+      </nav>
 
     <content>
       <section id="objective">
@@ -36,103 +40,91 @@
       <hr>
       <section id="workexperience">
         <h2>Work Experience:</h2>
-        <article id="job1">
-          <table class ="jobtable">
-            <tr>
-              <th>
-                <span class="jobTitle">Chef </br>Cafe Fonte</span>
-              </th>
-            </tr>
-            <tr>
-              <td>
-                <span class="date">August 2012</br> - </br> October 2013</span>
-              </td>
-            </table>
-            <div class="jobskills">
-              <td>
-                <ul>
-                  <li>Responsible for all aspects of running a kitchen that operates for Breakfast/Lunch/Dinner.</li>
-                  <li>Managed and led a kitchen staff of 10+ people.</li>
-                  <li>Organized all daily tasks and prep items into checklists and guides.</li>
-                  <li>Taught pastry, deserts, handmade pastas and new menu items to the staff.</li>
-                  <li>Developed a computer tool to help quickly calculate food cost in Microsoft Excel.</li>
-                  <li>Wrote a cookbook to help new hires quickly learn how to execute our menu.</li>
-                </ul>
-              </div>
+        <article class="container">
+            <div class="three columns">
+              <li>Chef</li>
+              <li>August 2012</li>
+              <li>to</li>
+              <li>October 2013</li>
+            </div>
+
+            <div class="offset-by-three">
+              <li>Responsible for all aspects of running a kitchen that operates for Breakfast/Lunch/Dinner.</li>
+              <li>Managed and led a kitchen staff of 10+ people.</li>
+              <li>Organized all daily tasks and prep items into checklists and guides.</li>
+              <li>Taught pastry, deserts, handmade pastas and new menu items to the staff.</li>
+              <li>Developed a computer tool to help quickly calculate food cost in Microsoft Excel.</li>
+              <li>Wrote a cookbook to help new hires quickly learn how to execute our menu.</li>
+            </div>
         </article>
 
-        <article id="job2">
-          <table class ="jobtable">
-            <tr>
-              <th>
-                <span class="jobTitle">Sous Chef</br>Skelly & the Bean</span>
-              </th>
-            </tr>
-            <tr>
-              <td>
-                <span class="date">Febuary 2012</br> - </br>August 2013</span>
-              </td>
-            </tr>
-          </table>
-              <div class="jobskills">
-               <li>Worked with local farmers and fresh ingredients to create new menu items on a daily basis</li>
-                <li>Set cleaning schedules and put prep sheets and order guides into effect</li>
-                <li>Assisted with the organization of a new restaurant</li>
-                <li>Acted as a handy man and repaired broken fixtures, leaks, and the dish machine</li>
-              </div>
+        <article class="container">
+          <div class ="three columns">
+            <li>Sous Chef</li>
+            <li>Skelly & the Bean</li>
+            <li>Febuary 2012</li>
+            <li>to</li>
+            <li>August 2013</li>
+          </div>
+
+          <div class="offset-by-three">
+            <li>Worked with local farmers and fresh ingredients to create new menu items on a daily basis</li>
+            <li>Set cleaning schedules and put prep sheets and order guides into effect</li>
+            <li>Assisted with the organization of a new restaurant</li>
+            <li>Acted as a handy man and repaired broken fixtures, leaks, and the dish machine</li>
+          </div>
         </article>
       </section>
       <hr>
       <article id="certifications">
         <h2>Certifications:</h2>
-        <table class = "centertable">
-        <tr>
-          <th>Washington Food Handlers Card</th>
-          <th>Washington State Liquer Server Training</th>
-          <th>CPR/AED & First-Aid Certified</th>
-        </tr>
-      </table>
+        <div class = "centerstuff">
+          <li>Washington Food Handlers Card</li>
+          <li>Washington State Liquer Server Training</li>
+          <li>CPR/AED & First-Aid Certified</li>
+        </div>
       </article>
 
       <hr>
       <article id="moreskills">
-        <h2>Other Skills:</h2>
+        <h2>Additional Skills:</h2>
+        <div class="centerstuff">
           <li>Computer Skills</li>
+          <li>HTML5</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </div>
       </article>
 
       <hr>
       <article id="education">
         <h2>Education:</h2>
-        <table class="centertable">
-          <tr>
-            <th>McKinleyville High School</th>
-            <th>California Culinary Acadamy</th>
-            <th>Code Fellows</th>
-          </tr>
+        <div class="centerstuff">
+          <div class="multiple">
+            <li>McKinleyville High School</li>
+            <li>2002-2006</li>
+            <li>High School Diploma</li>
+          </div>
 
-          <tr>
-            <td>
-              <li>2002-2006</li>
-              <li>High School Diploma</li>
-            </td>
-            <td>
-              <li>2007-2008</li>
-              <li>Asociate of the Arts</li>
-              <li>in Culinary Arts</li>
-            </td>
-            <td>
-              <li>2014</li>
-              <li>???</li>
-            </td>
-          </tr>
-        </table>
+          <div class="multiple">
+            <li>California Culinary Acadamy</li>
+            <li>2007-2008</li>
+            <li>Associate of the Arts</li>
+            <li>in Culinary Arts</li>
+          </div>
+
+          <div class="multiple">
+            <li>Code Fellows</li>
+            <li>2014 - present</li>
+          </div>
       </article>
     </content>
-    </header>
     <footer>
     </footer>
   </body>
 
-<link rel="stylesheet" type="text/css" href="/desktop/repos/normalize.css">
+<link rel="stylesheet" type="text/css" href="normalize.css">
+<link rel="stylesheet" type="text/css" href="skeleton.css">
 <link rel="stylesheet" type="text/css" href="resume.css">
+
 </html>
