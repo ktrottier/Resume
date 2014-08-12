@@ -4,77 +4,81 @@
 }
 
 body {
-  width: 960px;
   margin: 0 auto;
-}
-
-img {
-  width: 100px;
-  height: 100px;
-  float: right;
-  margin-left: 10px;
+  width: 960px;
 }
 
 h2 {
   text-decoration: underline;
 }
 
-ul {
-  margin-left: 0;
-  list-style: disc;
-}
-nav {
-  float: right;
-  padding: 5px;
-  margin: 5px;
+hr {
+  border-bottom-style: 2px solid black;
 }
 
-#workexperience {
-width: 100%;
-margin: center;
-float: center;
+p {
+  margin: 0;
+  padding: 10px;
+}
 
+p,a{
+  padding:12.5px;
+}
+
+.header {
+  line-height: 30%;
+  text-align: right;
+}
+
+.header .offset-by-ten {
+  padding-left: 600px;
+  line-height:10%;
+}
+
+img.medresize {
+  float: left;
+  height:200px;
+}
+
+img.smresize{
+  height: 50px;
+  width: auto;
+}
+
+#github {
+  padding-top: 220px;
+  position: relative;
 }
 
 a:hover a:visited{
   color: purple;
 }
 
-.gitlink {
-  text-align: right;
-  border: 2px blue;
-  border-radius: 5px;
-  background-color: #66CCFF;
+.container .three.columns {
+  font-size: small;
+  font-weight: bold;
+  list-style: none;
+  text-indent: 20px;
+  width: 160px;
 }
 
-.jobTitle {
-  width: 30%;
-  margin: left;
-  position: relative;
-  padding-top: 0px;
-  padding-left: 0px;
-  text-align: left;
-  clear: bottom;
+.container .offset-by-three {
+  margin-bottom: 20px
+  padding-left: 180px;
 }
 
-.date {
-  width:30%;
-  margin: left;
-  position: relative;
-  padding-top: 0px;
-  padding-left: 0px;
-  text-align: left;
-  clear: bottom;
-}
-
-.jobskills {
-  width: 70%;
- }
-
-.centertable {
-  width: 100%;
+.centerstuff {
   margin: center;
-  float: center;
+  width: 100%;
+}
+
+.centerstuff .multiple {
+  display: inline-table;
+  line-height: 70%;
+  list-style: none;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: left;
 }
 
 
