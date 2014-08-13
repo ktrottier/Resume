@@ -1,0 +1,15 @@
+
+img.medresize {
+  float: left;
+  height:200px;
+}
+
+img.smresize{
+  height: 50px;
+  width: auto;
+}
+
+#github {
+  padding-top: 220px;
+  position: relative;
+}

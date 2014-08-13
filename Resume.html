@@ -3,20 +3,29 @@
 <html>
   <head>
     <title>Forrest Parker</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="skeleton.css">
+    <link rel="stylesheet" type="text/css" href="base.css">
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <link rel="stylesheet" type="text/css" href="module.css">
+    <link rel="stylesheet" type="text/css" href="state.css">
+
+
+
   </head>
 
   <body>
-    <header class="header">
+    <header class="layout-header">
       <img class="medresize" src="forrest.jpg" property="image">
       <a id="linkin" href="https://www.linkedin.com/in/fparker9676?trk=shareTw">
       <img class="smresize" src ="linkedin.jpg"></a>
-      <a id="github" href="http://github.com/fparker9676"><img class="smresize"src="github.jpg"></a>
+      <a id="github" href="http://github.com/fparker9676"><img class="smresize"src="GitHub.jpg"></a>
       <div class="offset-by-ten" id="contactinfo" vocab="http://schema.org" typeof="Person">
         <p property="name"><h1>Forrest Parker</h1></p>
         <p property="jobTitle">Software Developer</p>
       </div>
 
-      <div class="offset-by-ten" id="contactaddress" property="address" typeof="PostalAddress">
+      <div class="layout-grid"  property="address" typeof="PostalAddress">
         <p property="streetAddress">5259 17th Ave NE<p>
         <p property="addressLocality">Seattle</p>
         <p property="addressRegion">WA</p>
@@ -26,9 +35,7 @@
       </div>
     </header>
 
-      <nav class="container">
 
-      </nav>
 
     <content>
       <section id="objective">
@@ -38,17 +45,17 @@
       </section >
 
       <hr>
-      <section id="workexperience">
+      <section>
         <h2>Work Experience:</h2>
         <article class="container">
-            <div class="three columns">
+            <div class="grid-three columns">
               <li>Chef</li>
               <li>August 2012</li>
               <li>to</li>
               <li>October 2013</li>
             </div>
 
-            <div class="offset-by-three">
+            <div class="grid-offset-by-three">
               <li>Responsible for all aspects of running a kitchen that operates for Breakfast/Lunch/Dinner.</li>
               <li>Managed and led a kitchen staff of 10+ people.</li>
               <li>Organized all daily tasks and prep items into checklists and guides.</li>
@@ -59,7 +66,7 @@
         </article>
 
         <article class="container">
-          <div class ="three columns">
+          <div class ="grid-three columns">
             <li>Sous Chef</li>
             <li>Skelly & the Bean</li>
             <li>Febuary 2012</li>
@@ -67,7 +74,7 @@
             <li>August 2013</li>
           </div>
 
-          <div class="offset-by-three">
+          <div class="grid-offset-by-three">
             <li>Worked with local farmers and fresh ingredients to create new menu items on a daily basis</li>
             <li>Set cleaning schedules and put prep sheets and order guides into effect</li>
             <li>Assisted with the organization of a new restaurant</li>
@@ -76,9 +83,9 @@
         </article>
       </section>
       <hr>
-      <article id="certifications">
+      <article>
         <h2>Certifications:</h2>
-        <div class = "centerstuff">
+        <div class = "layout-centerstuff">
           <li>Washington Food Handlers Card</li>
           <li>Washington State Liquer Server Training</li>
           <li>CPR/AED & First-Aid Certified</li>
@@ -86,9 +93,9 @@
       </article>
 
       <hr>
-      <article id="moreskills">
+      <article>
         <h2>Additional Skills:</h2>
-        <div class="centerstuff">
+        <div class="layout-centerstuff">
           <li>Computer Skills</li>
           <li>HTML5</li>
           <li>CSS</li>
@@ -97,23 +104,23 @@
       </article>
 
       <hr>
-      <article id="education">
+      <article>
         <h2>Education:</h2>
-        <div class="centerstuff">
-          <div class="multiple">
+        <div class="layout-centerstuff">
+          <div class="layout-education">
             <li>McKinleyville High School</li>
             <li>2002-2006</li>
             <li>High School Diploma</li>
           </div>
 
-          <div class="multiple">
+          <div class="layout-education">
             <li>California Culinary Acadamy</li>
             <li>2007-2008</li>
             <li>Associate of the Arts</li>
             <li>in Culinary Arts</li>
           </div>
 
-          <div class="multiple">
+          <div class="layout-education">
             <li>Code Fellows</li>
             <li>2014 - present</li>
           </div>
@@ -123,8 +130,6 @@
     </footer>
   </body>
 
-<link rel="stylesheet" type="text/css" href="normalize.css">
-<link rel="stylesheet" type="text/css" href="skeleton.css">
-<link rel="stylesheet" type="text/css" href="resume.css">
+
 
 </html>
