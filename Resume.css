@@ -2,57 +2,22 @@
   background-color: #efefef;
   padding: 5px;
 }
+/*base*/
 
 body {
   margin: 0 auto;
   width: 960px;
 }
+/*base*/
 
-h2 {
-  text-decoration: underline;
-}
 
-hr {
-  border-bottom-style: 2px solid black;
-}
 
-p {
-  margin: 0;
-  padding: 10px;
-}
 
-p,a{
-  padding:12.5px;
-}
-
-.header {
-  line-height: 30%;
-  text-align: right;
-}
-
-.header .offset-by-ten {
-  padding-left: 600px;
-  line-height:10%;
-}
-
-img.medresize {
-  float: left;
-  height:200px;
-}
-
-img.smresize{
-  height: 50px;
-  width: auto;
-}
-
-#github {
-  padding-top: 220px;
-  position: relative;
-}
 
 a:hover a:visited{
   color: purple;
 }
+/*base*/
 
 .container .three.columns {
   font-size: small;
@@ -61,18 +26,18 @@ a:hover a:visited{
   text-indent: 20px;
   width: 160px;
 }
-
+/*layout*/
 .container .offset-by-three {
   margin-bottom: 20px
   padding-left: 180px;
 }
-
+/*layout*/
 .centerstuff {
   margin: center;
   width: 100%;
 }
-
-.centerstuff .multiple {
+/*layout
+*/.centerstuff .multiple {
   display: inline-table;
   line-height: 70%;
   list-style: none;
@@ -80,6 +45,50 @@ a:hover a:visited{
   padding-right: 50px;
   text-align: left;
 }
+/*layout
+*/
 
+hr {
+  border-bottom-style: 2px solid black;
+}
+/*layout*/
 
+.header .offset-by-ten {
+  padding-left: 600px;
+  line-height:10%;
+}
+/*layout*/
 
+h2 {
+  text-decoration: underline;
+}
+/*module*/
+
+p {
+  margin: 0;
+  padding: 10px;
+}
+/*module*/
+
+.header {
+  line-height: 30%;
+  text-align: right;
+}
+/*state*/
+img.medresize {
+  float: left;
+  height:200px;
+}
+/*state*/
+
+img.smresize{
+  height: 50px;
+  width: auto;
+}
+/*state*/
+
+#github {
+  padding-top: 220px;
+  position: relative;
+}
+/*state*/
